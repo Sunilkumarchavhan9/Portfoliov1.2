@@ -1,5 +1,4 @@
 "use client";
-
 import { X } from "./x";
 import { LinkedIn } from "./linkedin";
 import { GitHub } from "./github";
@@ -34,7 +33,6 @@ export default function MyLinks() {
         }}
       >
         Find Me Here..
-
         {/* Stars SVG */}
         <motion.svg
           width="119"
@@ -84,6 +82,7 @@ export default function MyLinks() {
             }}
           />
         </motion.svg>
+
       </motion.h2>
 
       <motion.div
@@ -128,7 +127,7 @@ export default function MyLinks() {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-blue-600 hover:underline"
-        >
+          >
           <Mail className="w-4 h-4" />
           Email
         </a>
@@ -160,6 +159,7 @@ export default function MyLinks() {
               ease: "easeInOut"
             }}
           />
+
         </motion.svg>
         
       </div>
@@ -186,10 +186,10 @@ export default function MyLinks() {
           src="https://www.svgrepo.com/show/475654/github-color.svg"
           className="w-10 h-10 rounded-lg"
         />
-        <div>GitHub Campus<br/> Student Expert</div>
+        <div>GitHub Campus<br/>Student Expert</div>
          <div>Jun 2025 - Aug 2025</div>
       </div>
-       
+
     </div>
     </motion.div>
   );

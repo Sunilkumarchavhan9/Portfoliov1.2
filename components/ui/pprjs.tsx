@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function AllTimeProject(){
 
     return(
-         <div className=" items-center justify-center grid lg:grid-cols-2 relative lg:gap-20 lg:ml-90">
+         <div className=" items-center justify-center grid lg:grid-cols-2 relative  lg:ml-90 sm:gap-10 lg:gap-10 ">
                     <div>
                         <motion.svg
                             width="409" 
@@ -663,7 +663,20 @@ export default function AllTimeProject(){
                     </div>
 
                     <div >
-                        <svg width="409" height="476" viewBox="0 0 409 476" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                        <motion.svg width="409" height="476" viewBox="0 0 409 476" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                                 initial={{ opacity: 0, y: 50, rotateY: -15 }}
+                            animate={{ opacity: 1, y: 0, rotateY: 0 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
+                            whileHover={{ 
+                                scale: 1.05, 
+                                rotateY: 5,
+                                transition: { duration: 0.3 }
+                            }}
+                            style={{ 
+                                transformStyle: "preserve-3d",
+                                filter: "drop-shadow(0 10px 30px rgba(0, 72, 255, 0.3))"
+                            }}
+                        >
                         <g clip-path="url(#clip0_9745_291)">
                         <g filter="url(#filter0_d_9745_291)">
                         <path d="M29 36H405V468H29V36Z" fill="#D9D9D9"/>
@@ -816,13 +829,13 @@ export default function AllTimeProject(){
                         <image id="image0_9745_291" width="1109" height="621" preserveAspectRatio="none" xlinkHref="/thor.png"/>
                         <image id="image1_9745_291" width="1893" height="1072" preserveAspectRatio="none" xlinkHref="/doc.png"/>
                         </defs>
-                        </svg>
+                        </motion.svg>
 
                     </div>
 
-                    <div className="relative lg:right-50">
+                    {/* <div className="relative lg:right-50">
                        
-                    </div>
+                    </div> */}
 
                 </div>
     )

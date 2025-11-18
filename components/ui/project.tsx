@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Projects(){
     return(
-        <div className="flex items-center justify-center lg:mr-30 relative">
+        <div className="flex items-center justify-center  relative lg:right-65">
             <h1 className="font-extrabold text-3xl text-[#001cf0]">
                 <motion.svg 
                     width="160" 

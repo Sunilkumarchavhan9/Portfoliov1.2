@@ -62,11 +62,11 @@ export default function TechStack() {
         </motion.div>
       </div>
 
-      <div className="space-y-2 sm:space-y-3 lg:space-y-4 max-w-4xl mx-auto px-4 lg:ml-60">
+      <div className="space-y-2 sm:space-y-3 lg:space-y-4 max-w-4xl mx-auto px-4 lg:ml-110 md:mr-127">
 
         {/* Row 1 */}
         <motion.div
-          className="flex flex-wrap gap-1.5 sm:gap-2 lg:gap-3 justify-center lg:ml-5"
+          className="flex flex-wrap gap-1.5 sm:gap-2 lg:gap-3 justify-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -116,9 +116,9 @@ export default function TechStack() {
           ))}
         </motion.div>
 
-        {/* Row 4 */}
+        {/* Row 3 */}
         <motion.div
-          className="flex flex-wrap gap-1.5 sm:gap-2 lg:gap-3 justify-center lg:ml-4"
+          className="flex flex-wrap gap-1.5 sm:gap-2 lg:gap-3 justify-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
