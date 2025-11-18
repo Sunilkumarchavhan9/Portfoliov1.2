@@ -100,7 +100,7 @@ export default function MyLinks() {
           className="flex items-center gap-2 text-blue-600 hover:underline"
         >
           <X className="w-4 h-4" />
-          Twitter / X
+           X
         </a>
 
         <a
@@ -114,7 +114,7 @@ export default function MyLinks() {
         </a>
 
         <a
-          href="https://github.com/Sun"
+          href="https://github.com/Sunilkumarchavhan9"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-blue-600 hover:underline"
